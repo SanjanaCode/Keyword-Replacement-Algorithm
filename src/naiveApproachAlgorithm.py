@@ -1,7 +1,7 @@
 import string
 
 
-def replace_abbreviations(tweet, abbreviations_dict):
+def replace_abbreviations_naive(tweet, abbreviations_dict):
     
     results = []
     for sentence in tweet:

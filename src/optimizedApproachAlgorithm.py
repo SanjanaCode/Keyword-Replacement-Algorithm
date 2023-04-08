@@ -99,8 +99,7 @@ class AVLTree:
             return self._search(node.right, key)
 
 
-
-def replace_abbreviations(tweets, abbreviations_dict):
+def replace_abbreviations_optimized(tweets, abbreviations_dict):
     results = []
     avl_tree = AVLTree()
     for key, value in abbreviations_dict.items():
